@@ -66,6 +66,31 @@ for var i = 0; i < todo.count; i++ {
 }
 
 
+// If Statement
+// The if statement is a conditional statement that allows you to change the flow of program execution based on certain conditions.
+
+//range of numbers 1...13 inclusive
+let cards = 1...13
+
+//these numbers represent playing cards.. if we get 11, print jack, 12, queen, 13, king
+for card in cards {
+    if card == 11 {
+        println("Jack")
+    } else if card == 12 {
+        println("Queen")
+    } else if card == 13 {
+        println("King")
+    }else {
+        println(card)
+    }
+}
+
+
+
+
+
+
+
 
 
 
