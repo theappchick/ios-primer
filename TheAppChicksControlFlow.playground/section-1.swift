@@ -113,13 +113,58 @@ for card2 in cards {
 }
 
 
+// Comparison and Logical Operators
+// Learn about the two sets of operators used in conditional statements: comparison and logical operators.
+
+1 == 1 // true, because 1 is equal to 1
+2 != 1 // true, because 2 is not equal to 1
+2 > 1  // true, because 2 is greater than 1
+1 < 2  // true, because 1 is less than 2
+1 >= 1 // true, because 1 is greater than or euqal to 1
+2 <= 1 // false, because 2 is not less than or equal to
+
+var distance = 1 // in miles
+
+if distance < 5 {
+    println("\(distance) miles is near")
+} else if distance > 5 {
+       println("\(distance) miles is close")
+} else {
+        println("\(distance) miles is far")
+}
+
+// && is the AND operator
+// || is the NOT operator
+
+if true && true {
+    println("AND")
+}
+
+if distance > 5 && distance < 20 {
+    println("AND")
+}
+
+if distance < 5 || distance > 20 {
+    println("OR")
+}
 
 
+//Exercise: FizzBuzz Generator
+//Your challenge is to program a FizzBuzz generator. It’s that old children’s game. If a number is divisible by 3 then you print out "Fizz". If it is divisible by 5 then you print out "Buzz". Finally, if it is divisible by both 3 and 5 then you print out "FizzBuzz". This challenge is great because you can put everything you have learned in this course into practice.
 
+let myNumbers = 1...99
 
-
-
-
+for myNumber in myNumbers {
+    if (myNumber % 3 == 0) && (myNumber % 5 == 0) {
+        println("FizzBuzz")
+    } else if myNumber % 3 == 0 {
+        println("FIZZ")
+    } else if myNumber % 5 == 0 {
+        println("BUZZ")
+    } else {
+        println(myNumber)
+    }
+}
 
 
 
