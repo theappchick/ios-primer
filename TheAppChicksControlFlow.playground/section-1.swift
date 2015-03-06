@@ -85,6 +85,44 @@ for card in cards {
     }
 }
 
+// Switch Statement
+// The Switch statement is similar to the If statement. Consider it the swiss army knife of conditional statements which is packed with power features.
+
+// i like switch better ;)
+for card2 in cards {
+    switch card2 {
+    case 11:
+        println("Jack")
+    case 12:
+        println("Queen")
+    case 13:
+        println("King")
+    default:
+        println(card2)
+    }
+}
+
+// you can specify a range or numbers separated by commas
+for card2 in cards {
+    switch card2 {
+    case 1,11...13:
+        println("Trump Cards")
+    default:
+        println(card2)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
