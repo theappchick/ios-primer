@@ -5,6 +5,7 @@
 //
 // http://TheAppChicks.com
 // http://TeedOff.com
+// http://Drinktography.com
 
 import UIKit
 
