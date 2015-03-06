@@ -152,7 +152,7 @@ if distance < 5 || distance > 20 {
 //Exercise: FizzBuzz Generator
 //Your challenge is to program a FizzBuzz generator. It’s that old children’s game. If a number is divisible by 3 then you print out "Fizz". If it is divisible by 5 then you print out "Buzz". Finally, if it is divisible by both 3 and 5 then you print out "FizzBuzz". This challenge is great because you can put everything you have learned in this course into practice.
 
-let myNumbers = 1...99
+let myNumbers = 1...20
 
 for myNumber in myNumbers {
     if (myNumber % 3 == 0) && (myNumber % 5 == 0) {
@@ -167,7 +167,16 @@ for myNumber in myNumbers {
 }
 
 
+//Extra Credit
+//Given a range of numbers from 1 to 100. Write a loop which prints out whether a number is a odd or even.
 
+for i in 1...100 {
+    if i % 2 == 0 {
+        println("Even")
+    }else {
+        println("Odd")
+    }
+}
 
 
 
