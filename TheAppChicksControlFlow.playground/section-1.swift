@@ -30,3 +30,42 @@ for number in 1..<10 {
     println("\(number) times 2 is \(number*2)")
 }
 
+
+// While and Do-While Loop8:04
+// A freeform loop which allows you to loop while a condition is a true.
+
+// in this case, we execute at least once before evaluating the condition
+var index = 0
+while index < todo.count  {
+    println(todo[index])
+    index++
+}
+
+
+index = 0
+do {
+    println(todo[index])
+    index++
+} while index < todo.count
+
+
+
+// For-Condition-Increment
+// A classic loop construct which requires an index, condition, and increment. Usually used to index into array.
+
+index = 0  //index
+while index < todo.count  {  // condition
+    println(todo[index])
+    index++   // increment
+}
+
+// here we reduced the 7 lines of code from the above while loop into this compact for loop
+// here the index / condition / increment are all on one line
+for var i = 0; i < todo.count; i++ {
+    println(todo[i])
+}
+
+
+
+
+
