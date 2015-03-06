@@ -37,3 +37,28 @@ var greeting = "Hello " + modernProgrammingLanguage
 var str2 : String = "Hello "
 // known as an implicit or inferred type of the type is not specified
 var greeting2 : String = str2 + modernProgrammingLanguage
+
+
+// Printing Results
+// A print function displays the values of variables or constants in the console and is commonly used when programming. Learn the basic use of the print function.
+print("To build an iPhone app we need to learn Swift")  //--> check results to the right or in console
+// View -> Assistant Editor -> Show Assistant Editor.. see Console Output 
+print(modernProgrammingLanguage)
+
+// the two print commands above print on same line.. use println to print on new lines
+println("To build an iPhone app we need to learn Swift")
+print(modernProgrammingLanguage)
+// print information to the console..
+
+// print all in one..
+println("To build an iPhone app we need to learn " + modernProgrammingLanguage)
+
+// let the computer do the work, there is a trick to let the system know it's a constant
+// this is how you put a variable inside another string.. called string interpolation
+// this is a feature of strings..
+println("To build an iPhone app we need to learn \(modernProgrammingLanguage)")
+
+var greeting3 = "\(str) \(modernProgrammingLanguage)"
+
+// use constants to change the same value in several places
+
